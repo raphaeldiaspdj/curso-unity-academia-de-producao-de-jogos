@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4815051494711365677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4815051494711365679}
+  - component: {fileID: 4815051494711365678}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4815051494711365679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815051494711365677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0384626, y: 2.091858, z: 0.00979181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4815051494711365678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815051494711365677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 262e20564932e1d4eab48be137cd4595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alienFormations:
+  - {fileID: 6696434200817768919, guid: 4f4b902e868e1ab46b43cb0edefd7f0d, type: 3}
+  - {fileID: 2308434225549536153, guid: 4f73216f73be38e4f918ec3ffa3f95ef, type: 3}
+  alienKinds:
+  - {fileID: 5521962552580449423, guid: 55fcb27b017ee4644b05217973a44b00, type: 3}
+  - {fileID: 5521962552580449423, guid: afae5fc1359a94743bccf1a7c7a2c2d1, type: 3}
+  playerShipPrefab: {fileID: 5741310494907372786, guid: 17ef676e9f0d0ef4d8e717a2e74918fd,
+    type: 3}
+  initialPlayerLifes: 1
+  playerLifeIconPrefab: {fileID: 4266765853136243439, guid: 88f1414590360cd4d8e8d8ea5cfdb641,
+    type: 3}
+  playerLifeIconCanvas: {fileID: 0}
+  scoreTextField: {fileID: 0}
+  alienPoints: 10
